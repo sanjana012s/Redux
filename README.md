@@ -2,7 +2,8 @@
 
 A modern, lightweight Todo application built with **React**, **Redux Toolkit**, and **Vite**. Manage your daily tasks efficiently with a clean and intuitive interface.
 
-![Todo App Screenshot](./images/screenshot.png)
+<img src="./images/screenshot.png" alt="Todo App Screenshot" width="400" height="500"/>
+<p><small>Screenshot of the Redux Todo App</small></p>
 
 ---
 

@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #afc3d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+
+div {
+  background: rgb(171, 178, 230);
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+
+input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Add Button */
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Todo List */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Todo Item */
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Delete Button */
+
+li button {
+  background: #e74c3c;
+}
+
+li button:hover {
+  background: #c0392b;
+}
